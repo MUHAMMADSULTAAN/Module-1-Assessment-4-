@@ -1,0 +1,21 @@
+.container{
+    border: 1px solid red;
+
+}
+.container > table{ 
+    width:100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid purple;
+}
+.container> table th {
+    border: 1px solid orangered;
+    
+}
+tr{border: 1px solid orangered;
+
+}
+
+
+
+

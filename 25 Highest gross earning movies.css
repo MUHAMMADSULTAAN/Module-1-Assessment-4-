@@ -1,0 +1,277 @@
+ File Structure
+1. `index.html` (Homepage)
+2. `cape_town.html` (Cape Town Page)
+3. `johannesburg.html` (Johannesburg Page)
+4. `durban.html` (Durban Page)
+5. `pretoria.html` (Pretoria Page)
+6. `port_elizabeth.html` (Port Elizabeth Page)
+
+### 1. `index.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Africa Cities</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .city {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
+        }
+        .contact-link {
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Explore South Africa</h1>
+    <p>Discover the beauty and culture of five amazing cities in South Africa. Click on an image to learn more!</p>
+    
+    <div class="city">
+        <a href="cape_town.html">
+            <img src="https://images.app.goo.gl/XB4zAquUMF8oo9AT7" alt="Cape Town">
+            <p>Cape Town</p>
+        </a>
+    </div>
+    <div class="city">
+        <a href="johannesburg.html">
+            <img src="https://images.app.goo.gl/FemMTAmzK6W2bYPVAjpg" alt="Johannesburg">
+            <p>Johannesburg</p>
+        </a>
+    </div>
+    <div class="city">
+        <a href="durban.html">
+            <img src="https://sl.bing.net/dIQsGpZlmua.jpg" alt="Durban">
+            <p>Durban</p>
+        </a>
+    </div>
+    <div class="city">
+        <a href="pretoria.html">
+            <img src="https://sl.bing.net/g90KHla3Cwu" alt="Pretoria">
+            <p>Pretoria</p>
+        </a>
+    </div>
+    <div class="city">
+        <a href="port_elizabeth.html">
+            <img src="https://sl.bing.net/k83y6vbz0y4jpg" alt="Port Elizabeth">
+            <p>Port Elizabeth</p>
+        </a>
+    </div>
+    
+    <a href="contact.html" class="contact-link">Contact Us</a>
+</body>
+</html>
+```
+
+### 2. `cape_town.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cape Town</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cape Town</h1>
+    <p>Cape Town is a vibrant city known for its stunning landscapes, including the iconic Table Mountain and beautiful beaches.</p>
+    <img src="https://sl.bing.net/i7QXt8S8gIm alt.jpg="Cape Town View">
+    <img src="https://sl.bing.net/djBX1Ur4MPQjpg"alt,jpg="Cape Town Sunset">
+    <img src="https://https://sl.bing.net/fpd55ga3d4C"alt.jpg="Cape Town Waterfront">
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
+```
+
+### 3. `johannesburg.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johannesburg</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Johannesburg</h1>
+    <p>Johannesburg is the largest city in South Africa, rich in culture, history, and economic activity.</p>
+    <img src="https:/https://images.app.goo.gl/fjWnEXm1VzzYvMcU6.jpg" alt="Johannesburg Skyline">
+    <img src="https://v.jpg" alt="Johannesburg Market">
+    <img src="https://https://images.app.goo.gl/pRvyuwsgUUH3rNHt8.jpg" alt="Johannesburg Park">
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
+```
+
+### 4. `durban.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durban</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Durban</h1>
+    <p>Durban is famous for its beautiful beaches, warm climate, and rich cultural heritage.</p>
+    <img src="https://https://images.app.goo.gl/v52BqEi75QHxkk4z5.jpg" alt="Durban Beach">
+    <img src="https://https://images.app.goo.gl/2iDEjJADutshLsdJ7.jpg" alt="Durban City">
+    <img src="https://https://sl.bing.net/b8yR7d9tWi4.jpg" alt="Durban Promenade">
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
+```
+
+### 5. `pretoria.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretoria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pretoria</h1>
+    <p>Pretoria, the administrative capital of South Africa, is known for its historical significance and beautiful parks.</p>
+    <img src="https://sl.bing.net/hPvQSzBahEq.jpg" alt="Pretoria Union Buildings">
+    <img src="https://sl.bing.net/e83uIHl3Dno.jpg" alt="Pretoria Flowers">
+    <img src="https://https://sl.bing.net/kmr54XWSv8K.jpg" alt="Pretoria Skyline">
+    <a href="index.html">Back to Home</a>
+</body>
+</html>
+```
+
+### 6. `port_elizabeth.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Elizabeth</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Port Elizabeth</h1>
+    <p>Port Elizabethis known for Having numerous parks, museums, and landmarks.</p>
+    <img src="https://https://sl.bing.net/dQZlFfH2hXg.jpg" alt="parks">
+    <img src="https://https://images.app.goo.gl/f7uJEki3FjpZTL7N8.jpg" alt="museums">
+    <img src="https://https://images.app.goo.gl/dqPqr5gYWfHMWonL9.jpg" alt="landmarks">
+    <a href="index.html">Back to Home</a>
+
+
+}
+
+
+
+
